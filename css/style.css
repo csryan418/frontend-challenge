@@ -66,6 +66,8 @@ li {
 
 li div {
   float: left;
+  border-bottom: 1px solid #979797;
+  height: 90px;
 }
 
 li:after {
@@ -78,6 +80,7 @@ li:after {
   width: 10%;
   text-align: left;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .destination {
