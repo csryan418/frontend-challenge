@@ -50,19 +50,6 @@ h1 {
   margin-top: -15px;
 }
 
-.dictationicon {
-  position: absolute;
-  margin-left: 335px;
-  margin-top: 28px;
-}
-
-.searchicon {
-  position:absolute;
-  margin-left: 30px;
-  margin-top: 30px;
-  color: #8D8D92;
-}
-
 p {
   padding-top: 15px;
   padding-left: 30px;
@@ -72,10 +59,24 @@ p {
   border-color: #E8E8E9;
   width: 90%;
   margin-left: 20px;
-  margin-top:12px;
+  margin-top:10px;
   float:left;
   color: #8D8D92;
-  /*background-color: #E8E8E9;*/
+  background-color: #E8E8E9;
+}
+
+.dictationicon {
+  position: absolute;
+  margin-left: 335px;
+  margin-top: 26px;
+}
+
+.searchicon {
+  position:absolute;
+  margin-left: 30px;
+  margin-top: 28px;
+  color: #8D8D92;
+  z-index: 2;
 }
 
 .mapimage {
